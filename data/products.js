@@ -99,7 +99,7 @@ export let products = [];
 
 export function loadProductsFetch() {
   const promise = fetch(
-    'https://error.supersimplebackend.dev/products'
+    'https://supersimplebackend.dev/products'
   ).then((response) => {
     return response.json();
 
